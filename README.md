@@ -3,7 +3,7 @@
 ### Description
 This app makes an api call to The New York Times api, collecting the six most current articles on US politics. These articles appear in a card display on the main UI page. The user may look at each presented article and determine which one they would like to choose. The user will then use the nav bar to go to the Giphy site, retrieving a giph URL to input in the selected NYT article card. The user will enter that article and their name, both of which will be saved together in a database. If the user returns to the page, they may click on the nav bar to view the articles they have giphed.
 ### Table of Contents
-1. [Installation](#installation)
+1. [Installation and Deployment](#installation)
 2. [Usage](#usage)
 3. [License](#license)
 4. [Contribution](#contribution)
@@ -11,6 +11,7 @@ This app makes an api call to The New York Times api, collecting the six most cu
 6. [Questions](#questions)
 ### Installation
 This application is installed through Heroku.
+The deployed app is [here](https://ancient-depths-99799.herokuapp.com/?fbclid=IwAR23bF0P9uOBlSvvcDOt99w1yXkqgkTuLZfATDC01E685lECWtgzRtTsbZw).
 ### Usage
 This application employs [Node.JS](https://nodejs.org/en/). Additionally, it utilizes [npm](https://www.npmjs.com/). Within the npm module system, this application has dependencies on [sequelize](https://sequelize.org/), [mysql2](https://www.npmjs.com/package/mysql2), [express](https://expressjs.com/), and [express-handlebars](https://www.npmjs.com/package/express-handlebars). On the backend, [MySQL Workbench](https://www.mysql.com/products/workbench/) is used as a database. And [dotenv](https://www.npmjs.com/package/dotenv) is used for password security.
 ### License
